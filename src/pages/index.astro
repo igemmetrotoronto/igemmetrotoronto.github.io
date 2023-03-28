@@ -1,0 +1,17 @@
+---
+import { getCollection } from "astro:content";
+
+console.log(await getCollection("people"));
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>iGEM Metro Toronto</title>
+  </head>
+  <body>
+    <h1>iGEM Metro Toronto</h1>
+  </body>
+</html>
